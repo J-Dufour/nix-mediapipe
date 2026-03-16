@@ -28,6 +28,9 @@
 
         propagatedBuildInputs = with python; [
           numpy
+          absl-py
+          sounddevice
+          flatbuffers
         ];
 
         doCheck = false;
